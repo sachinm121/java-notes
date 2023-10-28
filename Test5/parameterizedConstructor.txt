@@ -1,0 +1,8 @@
+Whenever we pass object reference to the constructor then it is called copy constructor.
+
+Syntax:
+    class Car{
+        Car(int x, int y){
+            
+        }
+    }
