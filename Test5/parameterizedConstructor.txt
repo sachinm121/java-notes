@@ -1,4 +1,4 @@
-Whenever we pass object reference to the constructor then it is called copy constructor.
+A constructor through which we can pass one or more parameters is called parametrized constructor.
 
 Syntax:
     class Car{
