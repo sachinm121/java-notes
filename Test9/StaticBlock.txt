@@ -1,0 +1,21 @@
+Static block is such kiind of block in java which get execute at the time of loading the .classfile into JVM memory.It runs only once
+
+A.java      _____________________
+   |        |                   |
+ javac      |           ________|__________
+   |        |SB         |   class loader  |      
+A.class     |           |_________________|
+   |________|           |   Byte code     |
+                        |   Verifier      |
+                        |_________________|
+                        |   Execution     |
+                        |   Engine        |
+                        |_________________|
+                                JVM
+SB = Static block
+Syntax:
+       class A{
+            static{
+
+            }
+       }
