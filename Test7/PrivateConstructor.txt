@@ -1,0 +1,8 @@
+In java, it is posible tp write constructor as a private but according to the rule we can't access private members outside of class.
+
+syntax:
+        class class_name{
+            private class_name(){
+                
+            }
+        }
