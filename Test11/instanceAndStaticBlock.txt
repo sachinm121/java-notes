@@ -1,0 +1,14 @@
+Instance block
+---------------
+
+1. It deals with object.
+2. Executed at the time of object creation.
+3. No any keyword required.
+4. Static & non-static variable can be accessed inside the instance block.
+
+Static block
+-------------
+1. It deals with class.
+2. Executed at the time of loaded .class file in JVM.
+3. Static keyword is required.
+4. Only static variable can be accessed inside the static block.
