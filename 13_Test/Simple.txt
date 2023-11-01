@@ -1,0 +1,15 @@
+Simple inheritance nothing but which contains only one super class and only one sub class is called simple inheritance.
+
+Syntax:
+--------
+        class Super{
+            -----------
+            -----------
+            -----------
+        }
+
+        class Sub extends Super{
+            ----------
+            ----------
+            ----------
+        }
