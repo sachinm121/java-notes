@@ -1,0 +1,12 @@
+Super keyword refers to the objects of super class, it is used when we want to call the super class variable, method & constructor through such class object.
+
+Note:
+-----
+    1. Whenever the super class & sub class variable variable and method name both are same than it can be used only.
+
+    2. To avoid the confusion between super class and sub classes variables and methods that have same name we should use super keyword.
+
+    Super:
+        |_Variable
+        |_Method
+        |_Constructor
