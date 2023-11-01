@@ -1,0 +1,16 @@
+In multilevel inheritance we have only one super class and multiple sub classes called multilevel inheritance.
+
+Sysntax:
+--------
+        class Super{
+            ---------
+            --------
+        }
+        class Sub1 extends Super{
+            --------
+            --------
+        }
+        class Sub2 extends Super{
+            --------
+            --------
+        }
