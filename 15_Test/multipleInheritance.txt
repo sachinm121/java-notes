@@ -1,0 +1,16 @@
+Whenever a sub class wants to inherit the properties of two or more super classes have same method, java compiler can't decide which class method it should inherit.
+
+Then their meight be a chance of memory duplication. i.e a reason java doesn't support multiple inheritance through classes.
+
+Syntax:
+-------
+        class A{                    |   class B{
+            void m1(){              |       void m1(){
+                --------            |           ----------
+                --------            |           ----------
+            }                       |       }
+        }                           |   }
+-------------------------------------------------------------------------
+class C extends{
+    c is in confusion
+}
