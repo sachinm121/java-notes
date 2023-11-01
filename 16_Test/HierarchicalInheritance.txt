@@ -1,0 +1,19 @@
+A inheritance which contain only pne super class and multiple such class and all sub class directly extends super class calledhierarchical inheritance.
+
+Syntax:
+-------
+
+class A{
+    ----------
+    ----------
+}
+
+class B extends A{
+    ----------
+    ----------
+}
+
+class C extends A{
+    ----------
+    ----------
+}
