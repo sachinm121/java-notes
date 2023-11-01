@@ -1,0 +1,38 @@
+When we construct a new class from existing class in such a way that the new class access all the the features and properties of existing class called inheritance.
+
+Note:
+-----
+    1. In, java extends keyword is used to perform inheritance.
+    2. It provides code reusability.
+    3. We can't access private members of class throught inheritance.
+    4. A such class contains all the features of super class so, we     should create the object of sub class.
+    5. Method overriding only possible through inheritance.
+
+Syntax:
+-------
+        class A{ // super class/parent class
+            ----------
+            ----------
+            ----------
+        }
+
+        class B extends A{ sab class/ child class
+            ----------
+            ----------
+            ----------
+        }
+
+types: 
+-------
+        1. Single/ Simple inheritance
+                        ____________
+                        |   Super   |
+                        |___________|
+                              |
+                        ______|_____
+                        |   sub     |
+                        |___________|
+
+          2. Multi-level inheritance
+          3. Multiple inheritance(does not support by java)
+          4. Hierarchical inheritance
